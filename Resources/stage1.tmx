@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="490" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32" spacing="4" margin="2">
+  <image source="ground.png" width="252" height="252"/>
+ </tileset>
+ <layer name="Ground" width="600" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt3c1OwzAMwPHBDsABATfeAu39Xw4Ok6iqJLZTp7GX/0/yYWqXJumX03RwuQDxvf/Fyz1eC8uv96jZL5fKG0HaZk+dZrTD07b+mdsBAACQTSkPqwX52Ro0Yy4AAADYXAuxXQYAq3ukea6M9QcejZRflXIzbUiY9wbmqZ2nEd4TQjzW44Djpkw7zyi9H0ffxqfJrwDIWtdNroEAsBbyKwCoy/zMQDuXgH88d4MX8isgLs/7I/dawI58C73Ir4A25v0AABpfxgAwFs+WcIb9WIHxgR3Ps9BCfgXAS+b3kzwcvd+u3n9AVD1/H4H8ClgP424AOK6VX30aAwC2mM8EsCryK2Tx7Rhvm3JvyvX2bsLyKFrt62n36G2PCGk/RqyX1ch2SPX0fOZpaUftPC7Vt1Rubb19udrrxazjwfL/uEvr1cZB2jnpKOd5T/+OfF7fyq+ejdHr7H2DnH6cQ1uuVJ+RPH6TeLR/jvDeZx77O1odvWSpp3c7at/TlltbT/qcvZ89zT6HRvdv77uPrfexPozRK0P/Yj5rvq8dD/SOG46OK85ytH9mbHtERK2jlyz19G5H7XvacmvrSZ+z97On2edQxv59MkavVfsXNr9t8VT3
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="600" height="16">
+  <object name="End" x="15613" y="352" width="65" height="58"/>
+  <object name="bear1" x="1473" y="227" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="4"/>
+   </properties>
+  </object>
+  <object name="bear2" x="392" y="380" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="4"/>
+   </properties>
+  </object>
+  <object name="bee1" x="2020" y="323" width="30" height="28">
+   <properties>
+    <property name="fly" value="6"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="oil1" x="2117" y="381" width="30" height="28">
+   <properties>
+    <property name="hitPointModifier" value="1"/>
+    <property name="spriteName" value="star.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil2" x="1315" y="226" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="bee2" x="2883" y="322" width="30" height="28">
+   <properties>
+    <property name="fly" value="4"/>
+    <property name="orientationLeft" value="NO"/>
+   </properties>
+  </object>
+  <object name="oil3" x="2976" y="322" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil4" x="2942" y="322" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="bee3" x="3521" y="352" width="30" height="28">
+   <properties>
+    <property name="fly" value="8"/>
+    <property name="orientationLeft" value="NO"/>
+   </properties>
+  </object>
+  <object name="bee4" x="3681" y="289" width="30" height="28">
+   <properties>
+    <property name="fly" value="6"/>
+    <property name="orientationLeft" value="NO"/>
+   </properties>
+  </object>
+  <object name="bear3" x="3394" y="97" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="4"/>
+   </properties>
+  </object>
+  <object name="bear4" x="3586" y="385" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="10"/>
+   </properties>
+  </object>
+  <object name="bee5" x="4036" y="383" width="30" height="28">
+   <properties>
+    <property name="fly" value="4"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee6" x="4162" y="384" width="30" height="28">
+   <properties>
+    <property name="fly" value="4"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee7" x="4290" y="385" width="30" height="28">
+   <properties>
+    <property name="fly" value="4"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee8" x="4420" y="384" width="30" height="28">
+   <properties>
+    <property name="fly" value="4"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="oil5" x="3844" y="384" width="30" height="28">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="30"/>
+   </properties>
+  </object>
+  <object name="oil6" x="4354" y="383" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil7" x="4579" y="385" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil8" x="5122" y="388" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil9" x="5381" y="161" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil10" x="5507" y="-29" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil11" x="5727" y="-26" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil12" x="6145" y="290" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="bear5" x="4867" y="385" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="10"/>
+   </properties>
+  </object>
+  <object name="bear6" x="5187" y="65" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="bear7" x="5699" y="290" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="bear7" x="6209" y="288" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="bee9" x="6175" y="-28" width="30" height="28">
+   <properties>
+    <property name="fly" value="10"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee10" x="6472" y="389" width="30" height="28">
+   <properties>
+    <property name="fly" value="10"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee11" x="6755" y="389" width="30" height="28">
+   <properties>
+    <property name="fly" value="10"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bee12" x="6851" y="389" width="30" height="28">
+   <properties>
+    <property name="fly" value="12"/>
+    <property name="orientationLeft" value="YES"/>
+   </properties>
+  </object>
+  <object name="bear8" x="7358" y="-30" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="12"/>
+   </properties>
+  </object>
+  <object name="bear9" x="7493" y="97" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="12"/>
+   </properties>
+  </object>
+  <object name="bear10" x="7775" y="-28" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="4"/>
+   </properties>
+  </object>
+  <object name="bear11" x="7970" y="98" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="2"/>
+   </properties>
+  </object>
+  <object name="oil13" x="6725" y="67" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil14" x="7014" y="-29" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil15" x="7270" y="-26" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil16" x="7581" y="99" width="30" height="28">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="30"/>
+   </properties>
+  </object>
+  <object name="oil17" x="7877" y="97" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil18" x="7137" y="385" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil19" x="7914" y="97" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil20" x="8194" y="258" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil21" x="8356" y="257" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil22" x="8485" y="255" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil23" x="8520" y="255" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil24" x="8553" y="255" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil25" x="8740" y="225" width="30" height="28">
+   <properties>
+    <property name="hitPointModifier" value="1"/>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="star.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil26" x="9284" y="387" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil27" x="9281" y="225" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil28" x="9217" y="-29" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil28" x="9545" y="2" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil29" x="9664" y="-133" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil30" x="9824" y="-129" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil31" x="9857" y="386" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil32" x="10242" y="-2" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil33" x="10437" y="1" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil34" x="10529" y="-121" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil35" x="10725" y="390" width="30" height="28">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="1000"/>
+   </properties>
+  </object>
+  <object name="oil36" x="10498" y="389" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil37" x="11289" y="389" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil38" x="11493" y="258" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil39" x="11620" y="257" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil40" x="11749" y="258" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil41" x="11909" y="258" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil42" x="12098" y="257" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="bear12" x="8746" y="387" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="3"/>
+   </properties>
+  </object>
+  <object name="bear13" x="9349" y="389" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="10"/>
+   </properties>
+  </object>
+  <object name="bear14" x="10121" y="98" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="oil43" x="12293" y="386" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil44" x="12514" y="386" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil45" x="12830" y="385" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil46" x="12674" y="225" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="bear15" x="12387" y="387" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="bear16" x="13541" y="287" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="12"/>
+   </properties>
+  </object>
+  <object name="wolf1" x="14085" y="225" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="5"/>
+   </properties>
+  </object>
+  <object name="wolf2" x="14371" y="65" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="8"/>
+   </properties>
+  </object>
+  <object name="wolf3" x="14819" y="383" width="29" height="29">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="8"/>
+   </properties>
+  </object>
+  <object name="oil47" x="13762" y="417" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil48" x="13853" y="420" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil49" x="14018" y="225" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="250"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="oil50" x="14627" y="66" width="30" height="28">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="30"/>
+   </properties>
+  </object>
+  <object name="oil51" x="14914" y="386" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="oil52" x="15045" y="66" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="128"/>
+   </properties>
+  </object>
+  <object name="oil53" x="15201" y="65" width="30" height="28">
+   <properties>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="emerald2.png"/>
+    <property name="strictWidth" value="128"/>
+   </properties>
+  </object>
+  <object name="back1" x="1926" y="157" width="61" height="61">
+   <properties>
+    <property name="spriteName" value="down_arrow.png"/>
+    <property name="strictWidth" value="96"/>
+   </properties>
+  </object>
+  <object name="back2" x="3570" y="125" width="61" height="61">
+   <properties>
+    <property name="spriteName" value="down_arrow.png"/>
+    <property name="strictWidth" value="96"/>
+   </properties>
+  </object>
+  <object name="back3" x="6372" y="-1" width="61" height="61">
+   <properties>
+    <property name="spriteName" value="down_arrow.png"/>
+    <property name="strictWidth" value="96"/>
+   </properties>
+  </object>
+  <object name="back4" x="10818" y="151" width="61" height="61">
+   <properties>
+    <property name="spriteName" value="down_arrow.png"/>
+    <property name="strictWidth" value="96"/>
+   </properties>
+  </object>
+  <object name="oil58" x="448" y="381" width="37" height="32">
+   <properties>
+    <property name="hitPointModifier" value="1"/>
+    <property name="spriteName" value="star.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="Cloud0" x="259" y="4" width="65" height="59"/>
+  <object name="Cloud1" x="805" y="95" width="65" height="59"/>
+  <object name="Cloud2" x="1466" y="-1" width="65" height="59"/>
+  <object name="Cloud3" x="2658" y="34" width="65" height="59"/>
+  <object name="Cloud4" x="2728" y="-1" width="65" height="59"/>
+  <object name="Cloud5" x="4162" y="0" width="65" height="59"/>
+  <object name="Cloud6" x="4448" y="32" width="65" height="59"/>
+  <object name="Cloud7" x="4767" y="97" width="65" height="59"/>
+  <object name="back5" x="223" y="355" width="65" height="59">
+   <properties>
+    <property name="spriteName" value="firtree1.png"/>
+   </properties>
+  </object>
+  <object name="back6" x="2625" y="355" width="65" height="59">
+   <properties>
+    <property name="spriteName" value="firtree2.png"/>
+   </properties>
+  </object>
+  <object name="back7" x="2720" y="354" width="65" height="59">
+   <properties>
+    <property name="spriteName" value="firtree1.png"/>
+   </properties>
+  </object>
+  <object name="back8" x="1155" y="383" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms1.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="back9" x="2561" y="384" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms2.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="back10" x="3616" y="287" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms2.png"/>
+    <property name="strictWidth" value="64"/>
+   </properties>
+  </object>
+  <object name="back11" x="4957" y="383" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="stump2.png"/>
+    <property name="strictWidth" value="50"/>
+   </properties>
+  </object>
+  <object name="back12" x="5313" y="381" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="stump2.png"/>
+    <property name="strictWidth" value="50"/>
+   </properties>
+  </object>
+  <object name="back13" x="5056" y="382" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="firtree1.png"/>
+   </properties>
+  </object>
+  <object name="back14" x="6626" y="385" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="firtree2.png"/>
+   </properties>
+  </object>
+  <object name="Cloud8" x="5955" y="144" width="65" height="59"/>
+  <object name="Cloud9" x="7291" y="214" width="65" height="59"/>
+  <object name="Cloud10" x="8542" y="6" width="65" height="59"/>
+  <object name="Cloud11" x="9015" y="5" width="65" height="59"/>
+  <object name="Cloud12" x="11411" y="4" width="65" height="59"/>
+  <object name="Cloud13" x="12366" y="62" width="65" height="59"/>
+  <object name="Cloud14" x="13091" y="18" width="65" height="59"/>
+  <object name="Cloud15" x="13310" y="1" width="65" height="59"/>
+  <object name="back15" x="7453" y="382" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="stump2.png"/>
+    <property name="strictWidth" value="50"/>
+   </properties>
+  </object>
+  <object name="back16" x="8132" y="384" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms2.png"/>
+   </properties>
+  </object>
+  <object name="back17" x="8509" y="385" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms2.png"/>
+   </properties>
+  </object>
+  <object name="back18" x="9506" y="384" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="mushrooms2.png"/>
+   </properties>
+  </object>
+  <object name="back19" x="9897" y="382" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="stump1.png"/>
+   </properties>
+  </object>
+  <object name="back20" x="11681" y="382" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="bush1.png"/>
+   </properties>
+  </object>
+  <object name="back21" x="11170" y="386" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="bush2.png"/>
+   </properties>
+  </object>
+  <object name="back22" x="12162" y="380" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="birch1.png"/>
+   </properties>
+  </object>
+  <object name="back23" x="12001" y="381" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="birch2.png"/>
+   </properties>
+  </object>
+  <object name="back24" x="12765" y="380" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="birch2.png"/>
+   </properties>
+  </object>
+  <object name="back25" x="13794" y="-3" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="gold.png"/>
+    <property name="strictWidth" value="60"/>
+   </properties>
+  </object>
+  <object name="back26" x="15105" y="381" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="diamonds.png"/>
+    <property name="strictWidth" value="60"/>
+   </properties>
+  </object>
+  <object name="goal1" x="13719" y="286" width="39" height="33"/>
+  <object name="oil59" x="6402" y="385" width="30" height="28">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="back37" x="4097" y="379" width="33" height="33">
+   <properties>
+    <property name="spriteName" value="oak.png"/>
+    <property name="strictWidth" value="500"/>
+   </properties>
+  </object>
+  <object name="Spawn" x="4" y="354" width="66" height="63"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="600" height="16">
+  <object x="705" y="418" width="255" height="92"/>
+  <object x="1153" y="420" width="64" height="91"/>
+  <object x="1280" y="259" width="256" height="30"/>
+  <object x="1600" y="162" width="254" height="30"/>
+  <object x="2080" y="288" width="63" height="32"/>
+  <object x="1953" y="449" width="254" height="29"/>
+  <object x="2497" y="418" width="446" height="94"/>
+  <object x="1" y="418" width="638" height="93"/>
+  <object x="2273" y="226" width="63" height="29"/>
+  <object x="2880" y="354" width="127" height="28"/>
+  <object x="2881" y="226" width="62" height="29"/>
+  <object x="3010" y="130" width="60" height="28"/>
+  <object x="3201" y="131" width="61" height="27"/>
+  <object x="3328" y="130" width="127" height="28"/>
+  <object x="3588" y="322" width="187" height="29"/>
+  <object x="3489" y="387" width="62" height="26"/>
+  <object x="3488" y="420" width="1118" height="92"/>
+  <object x="4799" y="418" width="1021" height="93"/>
+  <object x="5183" y="99" width="129" height="29"/>
+  <object x="5377" y="194" width="190" height="29"/>
+  <object x="5634" y="322" width="126" height="28"/>
+  <object x="5443" y="1" width="124" height="30"/>
+  <object x="5697" y="2" width="62" height="30"/>
+  <object x="5952" y="1" width="62" height="30"/>
+  <object x="6081" y="1" width="128" height="29"/>
+  <object x="6144" y="321" width="191" height="32"/>
+  <object x="6400" y="418" width="768" height="96"/>
+  <object x="7009" y="289" width="159" height="30"/>
+  <object x="6880" y="195" width="64" height="27"/>
+  <object x="6720" y="98" width="126" height="29"/>
+  <object x="7009" y="1" width="127" height="29"/>
+  <object x="7264" y="1" width="127" height="29"/>
+  <object x="7490" y="129" width="126" height="30"/>
+  <object x="7680" y="1" width="128" height="30"/>
+  <object x="7873" y="132" width="127" height="28"/>
+  <object x="7393" y="419" width="124" height="28"/>
+  <object x="8001" y="419" width="383" height="91"/>
+  <object x="8451" y="420" width="123" height="91"/>
+  <object x="8705" y="417" width="192" height="97"/>
+  <object x="9027" y="419" width="63" height="93"/>
+  <object x="9155" y="420" width="59" height="91"/>
+  <object x="9280" y="419" width="768" height="92"/>
+  <object x="9600" y="289" width="128" height="29"/>
+  <object x="9472" y="228" width="125" height="28"/>
+  <object x="9343" y="196" width="129" height="28"/>
+  <object x="9216" y="1" width="191" height="31"/>
+  <object x="9537" y="35" width="381" height="31"/>
+  <object x="10115" y="132" width="349" height="27"/>
+  <object x="10465" y="420" width="128" height="27"/>
+  <object x="10593" y="131" width="191" height="28"/>
+  <object x="10723" y="419" width="189" height="28"/>
+  <object x="10976" y="420" width="63" height="27"/>
+  <object x="11171" y="419" width="187" height="27"/>
+  <object x="11489" y="419" width="1372" height="90"/>
+  <object x="12993" y="419" width="124" height="29"/>
+  <object x="13283" y="452" width="187" height="27"/>
+  <object x="13537" y="324" width="223" height="27"/>
+  <object x="13728" y="357" width="31" height="119"/>
+  <object x="13764" y="451" width="124" height="28"/>
+  <object x="13793" y="33" width="125" height="29"/>
+  <object x="13953" y="259" width="381" height="253"/>
+  <object x="14051" y="32" width="29" height="221"/>
+  <object x="14307" y="100" width="475" height="27"/>
+  <object x="14305" y="132" width="32" height="124"/>
+  <object x="15041" y="100" width="189" height="25"/>
+  <object x="14787" y="420" width="893" height="92"/>
+  <object x="13827" y="65" width="157" height="28"/>
+ </objectgroup>
+</map>

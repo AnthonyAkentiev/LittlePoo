@@ -1,0 +1,24 @@
+This is a simple Apple iOS platformer game with good Retina graphics.
+
+********************************************************************
+Released under GNU GPL v.3. Please see: 
+
+	http://en.wikipedia.org/wiki/GNU_General_Public_License
+
+NOTE: You can use source code/resources as you like, but license requires you to release YOUR product free and to provide link to original (this) project. YOU CAN'T SELL STUFF THAT IS BASED on this source code/resources. 
+Main intention behind opening this source code was that people would learn programming and be happy. Not for someone to gain money. 
+
+********************************************************************
+
+The game was written from scratch in a very "fast" fashion.
+
+It runs on:
+1) Apple iPod Touch 4G / iPhone 4
+2) Apple iPad 1/2
+
+Known bugs:
+1) Collision detection: depends on current CPU usage :-))) 
+2) High memory consumption: when multiple scenes are played -> crashreporter writes some kind of "Low memory" message to log.
+3) Very poor performance: a bit of optimizations in collision detection/sprite movements required.
+4) Camera movement is bad when dialogue is started.
+

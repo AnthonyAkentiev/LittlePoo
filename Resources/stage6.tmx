@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="350" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32" spacing="4" margin="2">
+  <image source="ground.png" width="252" height="252"/>
+ </tileset>
+ <layer name="Ground" width="350" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2k0PgjAMgGEPesKbN/Xm//+PaoSEkH2026Qre5+kB+YSSotjEk8n4JimT5wDMc1hmUNJaHOeNiGdt2d9pPkA8MHjuvuawzJnACgV28f1vO622ut6wb4WOJZe9rslMcq6C+BYelh3S7DuAvCqh/cMJbzlC4Rw/9qjB/a0PZCu/9JxniUAAAAAEMZvJXv0AMC/3OYIHac+Qztee8CzCZY83H8ecqzh4fo85AgAAACMhP/6ohce7kEPOdbwcH0ecgTww/fVHj0AAABSj0Q8V/PuifH1cWw8Nk9qff5c1Jznq/U7M8u9maZuuRrSA73S+qdqyR4/rEWt94pLJha58S3pPKlcnrH8RqetW6qG9ECvpv7UUqdVrfeIayYWufEt6TypXJ6x/EanrVuqhvRAr6b+1FKnVa33iDcn6R7f
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="350" height="20">
+  <object name="End" x="10885" y="473" width="64" height="64"/>
+  <object name="mole1" x="1633" y="515" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="mole2" x="2365" y="513" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="mole3" x="3232" y="319" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="12"/>
+   </properties>
+  </object>
+  <object name="mole4" x="4229" y="509" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="8"/>
+   </properties>
+  </object>
+  <object name="mole5" x="4772" y="517" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="10"/>
+   </properties>
+  </object>
+  <object name="mole6" x="5572" y="252" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="10"/>
+   </properties>
+  </object>
+  <object name="mole7" x="6116" y="159" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="20"/>
+   </properties>
+  </object>
+  <object name="mole8" x="6207" y="31" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="20"/>
+   </properties>
+  </object>
+  <object name="mole9" x="6691" y="30" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="20"/>
+   </properties>
+  </object>
+  <object name="mole10" x="7688" y="383" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="20"/>
+   </properties>
+  </object>
+  <object name="mole11" x="7049" y="514" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="NO"/>
+    <property name="orientationLeft" value="NO"/>
+    <property name="patrol" value="20"/>
+   </properties>
+  </object>
+  <object name="mole12" x="8129" y="160" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="6"/>
+   </properties>
+  </object>
+  <object name="mole13" x="9505" y="-32" width="28" height="31">
+   <properties>
+    <property name="autoTurn" value="YES"/>
+    <property name="orientationLeft" value="YES"/>
+    <property name="patrol" value="8"/>
+   </properties>
+  </object>
+  <object name="oil1" x="385" y="512" width="29" height="32">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="oil2" x="2213" y="513" width="29" height="32">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="oil3" x="4867" y="415" width="29" height="32">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="oil5" x="5955" y="512" width="29" height="32">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="oil6" x="8963" y="159" width="29" height="32">
+   <properties>
+    <property name="spriteName" value="botox2.png"/>
+    <property name="strictWidth" value="40"/>
+    <property name="timeModifier" value="50"/>
+   </properties>
+  </object>
+  <object name="oil7" x="737" y="515" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil8" x="976" y="413" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil9" x="1243" y="416" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil10" x="1477" y="513" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="oil3.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil11" x="1889" y="155" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="10000"/>
+    <property name="spriteName" value="oil3.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil12" x="2504" y="252" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="25000"/>
+    <property name="spriteName" value="oil1.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil13" x="3715" y="32" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="25000"/>
+    <property name="spriteName" value="oil1.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil14" x="4613" y="512" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil15" x="4931" y="155" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil16" x="5857" y="400" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil17" x="6333" y="321" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil18" x="8480" y="159" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil19" x="10152" y="512" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="25000"/>
+    <property name="spriteName" value="oil1.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="oil20" x="9986" y="512" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="Navalny1" x="10785" y="476" width="68" height="64"/>
+  <object name="oil4" x="1108" y="413" width="32" height="31">
+   <properties>
+    <property name="scoreModifier" value="1000"/>
+    <property name="spriteName" value="oil2.png"/>
+    <property name="strictWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="Spawn" x="2" y="482" width="64" height="60"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="350" height="20">
+  <object x="0" y="547" width="257" height="95"/>
+  <object x="321" y="545" width="125" height="95"/>
+  <object x="511" y="547" width="68" height="95"/>
+  <object x="704" y="545" width="63" height="97"/>
+  <object x="835" y="544" width="61" height="99"/>
+  <object x="961" y="547" width="61" height="93"/>
+  <object x="1087" y="545" width="67" height="95"/>
+  <object x="1217" y="545" width="65" height="95"/>
+  <object x="1345" y="545" width="383" height="95"/>
+  <object x="1695" y="452" width="132" height="29"/>
+  <object x="1824" y="353" width="129" height="32"/>
+  <object x="1827" y="189" width="125" height="29"/>
+  <object x="2207" y="545" width="193" height="31"/>
+  <object x="2467" y="481" width="125" height="31"/>
+  <object x="2465" y="287" width="127" height="32"/>
+  <object x="2848" y="543" width="129" height="35"/>
+  <object x="3008" y="449" width="129" height="31"/>
+  <object x="3136" y="352" width="129" height="33"/>
+  <object x="3329" y="256" width="61" height="31"/>
+  <object x="3459" y="193" width="61" height="28"/>
+  <object x="3552" y="131" width="65" height="27"/>
+  <object x="3683" y="65" width="61" height="32"/>
+  <object x="3837" y="548" width="483" height="96"/>
+  <object x="4449" y="548" width="379" height="97"/>
+  <object x="4803" y="449" width="127" height="29"/>
+  <object x="4929" y="352" width="128" height="32"/>
+  <object x="4928" y="189" width="127" height="33"/>
+  <object x="5312" y="545" width="193" height="31"/>
+  <object x="5568" y="287" width="131" height="31"/>
+  <object x="5565" y="480" width="132" height="32"/>
+  <object x="5949" y="544" width="132" height="33"/>
+  <object x="6111" y="448" width="129" height="33"/>
+  <object x="6244" y="353" width="125" height="32"/>
+  <object x="6433" y="419" width="63" height="27"/>
+  <object x="6561" y="451" width="63" height="28"/>
+  <object x="6656" y="515" width="65" height="28"/>
+  <object x="6785" y="579" width="61" height="27"/>
+  <object x="6909" y="545" width="580" height="96"/>
+  <object x="6911" y="0" width="609" height="124"/>
+  <object x="7329" y="131" width="189" height="59"/>
+  <object x="7524" y="0" width="31" height="64"/>
+  <object x="5857" y="-1" width="256" height="192"/>
+  <object x="7584" y="544" width="65" height="33"/>
+  <object x="7681" y="415" width="195" height="33"/>
+  <object x="7905" y="321" width="125" height="31"/>
+  <object x="8033" y="192" width="128" height="32"/>
+  <object x="7904" y="0" width="125" height="31"/>
+  <object x="8225" y="1" width="193" height="31"/>
+  <object x="8411" y="191" width="199" height="33"/>
+  <object x="8737" y="193" width="64" height="31"/>
+  <object x="8931" y="192" width="63" height="33"/>
+  <object x="9057" y="195" width="159" height="31"/>
+  <object x="9215" y="65" width="132" height="28"/>
+  <object x="9377" y="1" width="160" height="31"/>
+  <object x="9826" y="546" width="1408" height="92"/>
+ </objectgroup>
+</map>
